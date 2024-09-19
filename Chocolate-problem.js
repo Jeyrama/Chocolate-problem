@@ -19,3 +19,7 @@ function breakChocolate(n,m) {
 }
 
 // or
+
+let breakChocolate = function(n, m) {
+  return Math.max(0, m*n - 1);
+};
